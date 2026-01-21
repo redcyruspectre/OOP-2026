@@ -1,3 +1,4 @@
+package Pratice1.week1;
 public class Cars {
     public static void main(String[] args) {
         Car cars1 = new Car();
