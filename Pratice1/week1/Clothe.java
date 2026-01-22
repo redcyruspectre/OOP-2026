@@ -1,5 +1,5 @@
 package Pratice1.week1;
-ic class Clothe {
+class Clothe {
     public static void main(String[] args) {
         //First way, if you dont know the data firsthdand, just structure 
 
