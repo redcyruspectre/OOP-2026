@@ -22,7 +22,7 @@ public class Course {
     }
 
     // part 5 - Instance Methods
-    public void enrolledStudents(Student student) {
+    public void enrollStudents(Student student) {
   enrolledStudents[enrollementCount]=student;
   enrollementCount++;
     }
@@ -30,7 +30,7 @@ public class Course {
     public void displayCourseInfo(){
 
         for (int i = 0; i <enrollementCount;i++ ){
-            enrolledStudents[i].displayStudentInfo();
+         enrolledStudents[i].displayStudentInfo();
         }
        }
 

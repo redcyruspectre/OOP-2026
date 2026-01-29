@@ -11,13 +11,13 @@ public class Main {
         Student name3 = new Student(111, "red cyrus", "F", "Oloresisimo", "male", "email@" );
         System.out.println(Student.getTotalStudent());
 
+        System.out.println(Course.getSchoolName());
+
+        Course course = new Course("Cs101", "Introduction Programming");
         
-
-        System.out.println();
-
-
-
-
+        course.enrollStudents(name1);
+        course.enrollStudents(name2);
+        course.displayCourseInfo();
 
     }
 }
