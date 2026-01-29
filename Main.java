@@ -7,7 +7,7 @@ public class Main {
         Product.totalProduct++;
         Product p2 = new Product("Coffee", 300, 5);
         Product.totalProduct++;
-        Product p3 = new Product("Condensed Milk", 12, 12);
+        Product p3 = new Product("Condensed Milk", 70, 20);
         Product.totalProduct++;
         
 
@@ -18,6 +18,7 @@ public class Main {
         shop.productCount++;
         shop.productList[2] = p3;
         shop.productCount++;
+        shop.addProcuct(new Product("Water", 20, 100));
 
         System.out.println("Welcome to " + shop.name);
         shop.displayProduct();

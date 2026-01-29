@@ -2,13 +2,12 @@ public class Shop {
     String name;
     Product[] productList;
 
-    public Shop (){}
-
-
+    public Shop (){
+    }
     public Shop(String name, Product[] list) {
         this.name = name;
         this.productList = list;
-        this.productCount = count;
+       
 
     }
     public void addProcuct(Product product) {
@@ -17,9 +16,9 @@ public class Shop {
 
     }
     public void displayProduct(){
-        for (int i = 0; i < productList;i++){
-            if(productList[i] != null)
-        }System.out.println(productList[i].getInfo);
+        for (int i = 0; i < productList; i++)
+           // if(productList[i] != null)
+        System.out.println(productList[i].getInfo());
 
     }
 }

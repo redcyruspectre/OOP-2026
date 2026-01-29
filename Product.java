@@ -13,7 +13,9 @@ public class Product {
             this.stock = stock;
 
         }
-        public String getInfo
+        public String getInfo(){
+            return name + " - " + price;
+        }
     }
 
 }
